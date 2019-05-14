@@ -7,7 +7,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   @Input() variabili : Array<string> = [];
+  copix : string ="";
 
+  visualizza(i:string) :boolean{
+    this.copix= i;
+
+    return false;
+
+
+  }
 
 
   constructor() { }
