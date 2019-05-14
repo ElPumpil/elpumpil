@@ -1,0 +1,7 @@
+<button (click)="change()"> Vedi/Nascondi </button>
+<app-home *ngIf="log" [variabile]="testo"></app-home>
+<form>
+  <input #user>
+  <button (click)="send(user)">submit</button>
+  {{testo}}
+</form>
