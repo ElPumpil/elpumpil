@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Mono-rent';
   log : boolean = false;
-  testo : string = "";
+  utenti : Array<string> = [];
 
   change() : boolean{
     if (this.log)
@@ -20,7 +20,7 @@ export class AppComponent {
   }
 
    send(user:HTMLInputElement) : boolean{
-     this.testo = user.value;
+     this.utenti.push(user.value);
      return false;
   }
 }

@@ -1,7 +1,9 @@
 <button (click)="change()"> Vedi/Nascondi </button>
-<app-home *ngIf="log" [variabile]="testo"></app-home>
+<app-home *ngIf="log" [variabili]="utenti"></app-home>
 <form>
   <input #user>
-  <button (click)="send(user)">submit</button>
-  {{testo}}
+  <button (click)="send(user)">submit</button> <br>
+  <p *ngFor="let utente of utenti"> {{utente}}</p>
+  
+  
 </form>
