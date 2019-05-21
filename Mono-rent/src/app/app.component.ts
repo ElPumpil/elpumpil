@@ -12,7 +12,7 @@ export class AppComponent {
 
   change() : boolean{
     if (this.log)
-      {this.log=false;} 
+      {this.log=false;}
     else {
       this.log=true;
     }
