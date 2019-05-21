@@ -4,5 +4,12 @@
     { "id" : 2 , "username" : "coniglio" , "psw" : "33"  } ,
     { "id" : 3 , "username" : "leprotto" , "psw" : "44"  }
 
+    ] ,
+
+    "noleggio" :[
+    { "id" : 1 , "username" : "papero" , "psw" : "22"  } ,
+    { "id" : 2 , "username" : "coniglio" , "psw" : "33"  } ,
+    { "id" : 3 , "username" : "leprotto" , "psw" : "44"  }
+
     ]
 }
